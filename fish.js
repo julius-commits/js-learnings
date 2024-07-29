@@ -1,6 +1,6 @@
 let table = document.getElementById("product-table");
 let btn_new_product = document.getElementById("new-project");
-let url = "https://food-delivery-backend-fcxs.onrender.com/api/food/add";
+let url = "https://fakestoreapi.com/products";
 let addNewProduct = async () => {
   //prepare data of new product
   let newProduct = {
